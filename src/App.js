@@ -6,18 +6,29 @@ import ProductCard from "./Components/ProductCard/ProductCard";
 
 function App() {
   return (
-    <div>
-      <Navbar />
+  
+   <div>
+
+      <Navbar/>
       
-      <ItemListContainer />
-      <ProductCard title= {"producto uno"} price={200} isRed={false} />
-      <ProductCard title= {"producto 2" }price={500} isRed= {true} />  
+      <ItemListContainer greeting ={"HOLA, QUE TENGAS UNA LINDA COMPRA"}/>
+      
+      
+      <ProductCard title= {"Jabones de Arcilla "} price={800} isRed={false} />
+      
+      
+      <ProductCard title= {"Suero AntiAge" }price={1500} isRed= {false} />  
              
       
+  
+
+
+
       <Footer/>
     </div>
   
-  );
+  ); 
 }
 
 export default App;
+
